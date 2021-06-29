@@ -17,4 +17,11 @@ public class UserRegistration {
 		return lastname;
 
 	}
+
+	String inputEmail() {
+		System.out.println("Enter Email Id");
+		String email = scan.next();
+		return email;
+
+	}
 }
