@@ -1,10 +1,13 @@
 package com.bridgelabz.UserRegistration;
 
+import java.util.Scanner;
+
 public class UserRegistration {
+	Scanner scan = new Scanner(System.in);
 
-	public static void main(String[] args) {
-		System.out.println("Welcome to User Registration Program");
-
+	String inputFirstName() {
+		System.out.println("Enter First Name");
+		String firstname = scan.next();
+		return firstname;
 	}
-
 }
