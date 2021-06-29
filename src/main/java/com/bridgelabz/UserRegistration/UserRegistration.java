@@ -10,4 +10,11 @@ public class UserRegistration {
 		String firstname = scan.next();
 		return firstname;
 	}
+
+	String inputLastName() {
+		System.out.println("Enter Last Name");
+		String lastname = scan.next();
+		return lastname;
+
+	}
 }
